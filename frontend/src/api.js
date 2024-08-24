@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://mern-api-kerb.onrender.com';
 
 export const GetAllEmployees = async (search = '', page = 1, limit = 5) => {
     const url =
